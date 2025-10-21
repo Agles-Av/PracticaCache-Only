@@ -8,12 +8,12 @@
     "description":"Una PWA para una aplicación de consulta de cocteles.",
     "icons":[
         {
-            "src":"/images/icons/coctel1.png",
+            "src":"images/icons/coctel1.png",
             "sizes":"192x192",
             "type":"image/png"
         },
         {
-            "src":"/images/icons/coctel3.png",
+            "src":"images/icons/coctel3.png",
             "sizes":"512x512",
             "type":"image/png"
         }
