@@ -3,12 +3,13 @@ const CACHE_NAME = 'cocktail-pwa-v2';
 
 // App Shell (debe abrir offline sí o sí)
 const APP_SHELL = [
-  '/',
-  '/index.html',
-  '/main.js',
-  '/styles/main.css',
-  '/scripts/app.js',
+  './',
+  './index.html',
+  './main.js',
+  './styles/main.css',
+  './scripts/app.js',
 ];
+
 
 // Fallback si no hay red para la API
 const OFFLINE_COCKTAIL_JSON = {
