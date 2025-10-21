@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="/images/icons/apple-icon-180x180.png" sizes="180x180">
+  <link rel="apple-touch-icon-precomposed" href="/images/icons/icon-ios-precomposed.png">
+  <title>Buscador PWA de Cócteles</title>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="manifest" href="/manifest.json">
+
+</head>
+<body>
+  <header><h1>🍹 Buscador de Cócteles PWA</h1></header>
+  <main>
+    <section class="search-box">
+      <input id="cocktailName" placeholder="Escribe un cóctel (ej. Mojito)" value="Mojito">
+      <button id="searchButton">Buscar</button>
+    </section>
+    <section id="result" class="result-container">
+      <p>Escribe un nombre y presiona buscar para iniciar la prueba.</p>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
