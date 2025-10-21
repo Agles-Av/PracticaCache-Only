@@ -1,7 +1,7 @@
 {
     "name":"Mi pwa de cocteles",
     "short_name":"Cocteles finder",
-    "start_url": ".",
+    "start_url": "./index.html",
     "display":"standalone",
     "background_color":"#ffffff",
     "theme_color":"#000000",
